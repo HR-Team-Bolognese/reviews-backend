@@ -1,0 +1,25 @@
+{
+  "name": "reviews-backend",
+  "version": "1.0.0",
+  "description": "reviews part of SDC project with Team Bolognese",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server-dev": "npx nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HR-Team-Bolognese/reviews-backend.git"
+  },
+  "author": "John Bronson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HR-Team-Bolognese/reviews-backend/issues"
+  },
+  "homepage": "https://github.com/HR-Team-Bolognese/reviews-backend#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
+  }
+}
