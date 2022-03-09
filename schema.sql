@@ -51,3 +51,4 @@ ALTER TABLE characteristic_reviews
   ADD CONSTRAINT characteristics_characteristic_reviews
     FOREIGN KEY (characteristic_id) REFERENCES "characteristics" (characteristic_id)
   ;
+

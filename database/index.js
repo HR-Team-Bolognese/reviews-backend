@@ -61,9 +61,6 @@ const getMeta = function (product_id) {
               FROM characteristics
                 WHERE product_id=$1))
      FROM reviews WHERE product_id = $1`,[product_id])
-
-
-    //json_object_agg will be used to put objects together but not in an array
 }
 
 
