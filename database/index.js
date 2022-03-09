@@ -11,6 +11,14 @@ const pool = new Pool({
 const getReviews = function (page, count, product_id) {
   //need to build logic for page/count/sort
 
+  if (!page) {
+    page = 1
+  }
+
+  if (!count) {
+    count = 1
+  }
+
   return pool.query(`SELECT json_build_object(
     'product', product_id,
     'page', ${page},
