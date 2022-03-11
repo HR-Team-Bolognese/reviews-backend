@@ -15,7 +15,7 @@ app.get('/', (req,res) => {
 * sort - integer
 * product_id
 */
-
+//
 app.get('/reviews/', (req, res) => {
 //  console.log('starting GET request at /reviews/')
   db.getReviews(req.query.page, req.query.count, req.query.product_id)
